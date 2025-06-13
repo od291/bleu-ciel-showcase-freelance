@@ -7,9 +7,9 @@ const Header = () => {
 
   const menuItems = [
     { label: 'Accueil', href: '#home' },
-    { label: 'Services', href: '#services' },
     { label: 'À propos', href: '#about' },
-    { label: 'Compétences', href: '#competences' },
+    { label: 'Services', href: '#services' },
+    { label: 'Expérience', href: '#experience' },
     { label: 'Contact', href: '#contact' }
   ];
 

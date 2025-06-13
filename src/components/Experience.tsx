@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Code, Database, Globe, Smartphone, Palette, Zap, Server, GitBranch } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-const Competences = () => {
+const Experience = () => {
   const competenceCategories = [
     {
       title: 'Frontend',
@@ -69,11 +68,11 @@ const Competences = () => {
   ];
 
   return (
-    <section id="competences" className="py-20 bg-white">
+    <section id="experience" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Mes Compétences
+            Mon Expérience
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Un aperçu de mes compétences techniques et créatives, 
@@ -135,4 +134,4 @@ const Competences = () => {
   );
 };
 
-export default Competences;
+export default Experience;
