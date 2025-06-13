@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -10,7 +9,7 @@ const Header = () => {
     { label: 'Accueil', href: '#home' },
     { label: 'Services', href: '#services' },
     { label: 'À propos', href: '#about' },
-    { label: 'Portfolio', href: '#portfolio' },
+    { label: 'Compétences', href: '#competences' },
     { label: 'Contact', href: '#contact' }
   ];
 

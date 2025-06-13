@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Heart, Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
@@ -13,7 +12,7 @@ const Footer = () => {
   const quickLinks = [
     { label: 'Accueil', href: '#home' },
     { label: 'Services', href: '#services' },
-    { label: 'Portfolio', href: '#portfolio' },
+    { label: 'Compétences', href: '#competences' },
     { label: 'Contact', href: '#contact' }
   ];
 
